@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>详情页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--导航-->
+    <nav class="navbar navbar-default">
+       <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bootstrap响应式案例</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="#about" data-toggle="tab">关于</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right"> 
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li> 
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> 
+            </ul> 
+        </div>
+
+       </div>
+    </nav>
+    <!--详情页-->
+    <div class="container">
+      <div class="row">
+
+       <div class="col-md-9">
+         <!--正文-->
+         <div class="page-header">
+            <h1>四光年科技<small>有价值的、有趣的信息服务</small></h1>
+         </div>
+         <blockquote>
+           <p>交给你全栈开发的一招一式，我们不会装作什么都懂，也不会教你花架子，只是能保证你学完后，拥有自己的一套内功心法，能举一反三，轻松写代码</p>
+         </blockquote>
+         <p>
+             <strong>程序员修炼之道</strong>
+         </p>
+         <p>
+          <mark>“衣带渐宽终不悔，为伊消得人憔悴”</mark>，编程大约有三个境界，新手、高手和<del>高不成低不就的中手</del>，适合新手的教程很多，指导中手的教程却很少；没有几十万行代码的锤炼或者长期在一个高手团队里打磨切磋，中手需要在这个层次“众里寻他千百度”，才能“蓦然回首”。 <ins>我们偏好实践，以正确的原则指导正确的行动</ins>
+         </p>
+         <p class="text-center">
+             <img src="../img/01.png" alt="Second slide" class="img-responsive  center-block">
+         </p>
+         <p>听说 PHP 很简单，常用的函数有<code>echo</code>、<code>is_array</code>、<code>mysql_connect</code>等等</p>
+         <p>
+              例如
+               <pre>
+               // example
+               if($a == 1){
+                   echo 'variable a = 1';
+               }else{
+                   echo 'variable a = 2';
+               }
+               </pre>
+         </p>
+         <p class="text-center">
+             <button class="btn btn-primary">顶</button>
+             <button class="btn btn-danger">踩</button>
+         </p>
+       </div>
+
+
+       <div class="col-md-3">
+          <!--相关信息-->
+             <p>
+                 <img src="../img/t2.jpg" alt="Second slide" class="img-responsive img-circle center-block">
+             </p>
+             <h3>相关内容</h3>
+             <ul class="list-unstyled">
+                 <li><a href="">深圳市四光年信息技术有限公司</a></li>
+                 <li><a href="">深圳市腾讯计算机系统</a></li>
+                 <li><a href="">北京市百度互联网计算有限公司</a></li>
+                 <li><a href="">杭州市阿里巴巴集团</a></li>
+             </ul>
+       </div>
+
+      </div>
+    </div>
+    <!--底部-->
+    <div class="container text-center">
+      <footer>
+          微信公众号管家版权所有 2016
+          <a href="">四光年科技</a>
+      </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+/*.carousel-inner > .item > img {
+  min-width: 100%;
+  height: auto;
+}*/
+
+.case {
+  text-align: center;
+  margin-top: 20px;
+}
+.case img {
+  height: 150px;
+}
+.screenshot .item {
+  border-top: 1px solid #CCC;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.navbar {
+  background-color: #000;
+}
+.navbar-nav li a, .navbar-nav li a:focus, .navbar-nav li a:visited {
+  color: #FFF;
+}
